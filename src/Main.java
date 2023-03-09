@@ -16,13 +16,21 @@ public class Main {
         y.lastname = "Aida";
 
         System.out.println(y.firstname + " " + y.lastname + " id :"+y.id);
+        y.login();
 
         Ta t = new Ta();
         System.out.print("Please enter your name : ");
         t.firstname = new_in.nextLine();
         System.out.print("The subject you know : ");
         t.subject = new_in.nextLine();
-        System.out.printf("%s you help students with %s",t.firstname,t.subject);
+        System.out.printf("%s you help students with %s\n",t.firstname,t.subject);
+        t.login();
+
+        Gta gta = new Gta();
+        gta.salary = 3000;
+        gta.firstname = "Rhiad";
+
+        gta.login();
 
 
     }
