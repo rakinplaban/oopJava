@@ -29,7 +29,7 @@ public class Main {
         Gta gta = new Gta();
         gta.salary = 3000;
         gta.firstname = "Rhiad";
-
+        System.out.println("-----------------------------------------------------");
         gta.login();
 
 

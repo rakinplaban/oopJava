@@ -3,6 +3,6 @@ public class Ta extends Student{
     public String subject;
 
     public void login(){
-        System.out.println("Logged in as Ta");
+        System.out.println("Logged in as Ta "+firstname);
     }
 }
