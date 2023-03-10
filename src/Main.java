@@ -31,6 +31,20 @@ public class Main {
         gta.firstname = "Rhiad";
         System.out.println("-----------------------------------------------------");
         gta.login();
+        System.out.println("Please enter radius of circle:");
+        Circle c = new Circle();
+        c.radius = new_in.nextFloat();
+        float cir_area = c.area();
+        System.out.printf("The area of the circle is : %.2f\n",cir_area);
+
+        System.out.println("Please enter length of square:");
+        Square s = new Square();
+        s.length = new_in.nextFloat();
+        System.out.println("The area of the square is : "+s.area());
+
+        Resort ob = new Resort();
+        ob.length = new_in.nextInt();
+        System.out.println("The area of swimming pool : "+ob.calculate_area());
 
 
     }
